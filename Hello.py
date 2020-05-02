@@ -1,1 +1,5 @@
-print("Twinkle, twinkle, little star,\n How I wonder what you are!,\n  Up above the world so high,\n  Like a diamond in the sky.");
+s = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+lists=s.split('@')
+print(lists)
+name=lists[1].split(' ')
+print(name[0])
